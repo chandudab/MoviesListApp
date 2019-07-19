@@ -3,7 +3,7 @@
     flex-direction: column;
     border: 1px solid lightgray;
     height: 100%;
-    margin: 20px 0px;
+    margin: 20px 16px;
   }
   .movie-poster img {
     width: 100%;
