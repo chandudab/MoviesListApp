@@ -23,7 +23,8 @@ const movieListItem = (props) => {
         <h2 className="movie-detail-title">{props.title}</h2>
         <p className="movie-details-genres">
           <Genres
-            genres={props.genres} />
+            genres={props.genres} 
+            genresList={props.genresList}/>
         </p>
         <p className="movie-detial-overview">{props.overview}</p>
         <span className="movie-details-rating-vote">

@@ -6,6 +6,7 @@ const movieList = (props) => (
     props.movies.map(movie => {
         return <MovieItem
             genres={movie.genre_ids}
+            genresList={props.genresList}
             title={movie.title + ' (' + new Date(movie.release_date).getFullYear() + ')'}
             poster_path={movie.poster_path}
             overview={movie.overview}
